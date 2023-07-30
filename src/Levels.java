@@ -43,7 +43,7 @@ public abstract class Levels
 		game.setNextEntity(new GBackground(0 , 0 , 0));
 		game.setNextEntity(new Jimbo(50 , 400));
 		game.setNextEntity(new silver_coin(200 , 400));
-		
+		game.setNextEntity(new gold(300 , 400));
 		
 		game.setNextEntity(new BigPipe(700, 285));
 		game.setNextEntity(new BigPipeDown(900, 0));
